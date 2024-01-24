@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cc.ddrpa.repack</groupId>
+        <artifactId>safebox</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>safebox-mybatis</artifactId>
+    <packaging>jar</packaging>
+
+    <name>safebox-mybatis</name>
+    <description>Type handler for mybatis.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>cc.ddrpa.repack</groupId>
+            <artifactId>safebox-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+    </dependencies>
+</project>
